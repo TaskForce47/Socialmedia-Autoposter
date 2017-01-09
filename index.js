@@ -88,7 +88,7 @@ feedparser.on('readable', function () {
 	timestamp=new Date(Date.parse(day + ' ' + month + ' ' + year + ' ' + date[2]))
 	if (!(storage.getItemSync(item.guid))){
 		community.scheduleGroupEvent(
-			"103582791456935650",
+			process.env.STEAM_GROUPID,
 			item.title,
 			"107410",
 			item.description,
