@@ -10,3 +10,5 @@ coverage/
 assets/rev.json
 .nyc_output/
 .env
+.node-persist/
+.DS_Store
