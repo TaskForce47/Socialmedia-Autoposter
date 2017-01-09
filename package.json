@@ -1,0 +1,19 @@
+{
+  "name": "tf47_socialmedia",
+  "version": "1.0.0",
+  "description": "Auto update for steam community, facebook and twitter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cldr-data": "^30.0.2",
+    "dotenv": "^4.0.0",
+    "feedparser": "^2.0.0",
+    "globalize": "^1.2.2",
+    "steamcommunity": "^3.30.3"
+  }
+}
