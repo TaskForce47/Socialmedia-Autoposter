@@ -13,6 +13,7 @@
     "dotenv": "^4.0.0",
     "feedparser": "^2.0.0",
     "node-persist": "^2.0.7",
+    "sanitize-html": "^1.13.0",
     "steamcommunity": "^3.30.3"
   }
 }
